@@ -5,11 +5,11 @@ public class Employee {
     String surname;
     String patronymic;
     String email;
-    int phone;
+    String phone;
     int salary;
     int age;
 
-    public Employee(String name, String surname, String patronymic, String email, int phone, int salary, int age) {
+    public Employee(String name, String surname, String patronymic, String email, String phone, int salary, int age) {
         this.name = name;
         this.surname = surname;
         this.patronymic = patronymic;
